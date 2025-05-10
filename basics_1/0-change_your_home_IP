@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Change your home IP address
 HOSTS_FILE="/etc/hosts"
 
 if [ "$EUID" -ne 0 ]; then
